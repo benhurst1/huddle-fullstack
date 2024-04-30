@@ -67,6 +67,18 @@ button:focus-visible {
   }
 }
 
+input,
+select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.3em 0.6em;
+  margin-left: 20px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  transition: border-color 0.25s;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -77,6 +89,16 @@ header {
   top: 0;
   width: 100%;
 }
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
 .houseList {
   display: flex;
   width: 100vw;
@@ -143,5 +165,5 @@ th {
 
 tr:nth-child(even) {
   background-color: grey;
-  color:white
+  color: white;
 }
