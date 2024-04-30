@@ -52,7 +52,6 @@ async function createServer() {
     }
   });
 
-
   const vite = await createViteServer({
     server: { middlewareMode: "html" },
   });

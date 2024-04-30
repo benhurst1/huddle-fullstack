@@ -1,6 +1,3 @@
--- Create a new database
-CREATE DATABASE huddle;
-
 -- Create the house table
 CREATE TABLE house (
   id SERIAL PRIMARY KEY,
