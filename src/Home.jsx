@@ -48,7 +48,7 @@ export default function Home() {
                 )}
               >
                 <h2>
-                  {house.house_number} {house.street_address}, {house.city}
+                  {house.house_number} {house.street_address}, {house.city},{" "}
                   {house.postcode}
                 </h2>
               </button>
